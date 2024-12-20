@@ -46,11 +46,6 @@ body{
     align-items: center;
 }
 
-body.sombre {
-    background-color: ;
-    color: var(--color-d-grey);
-}
-
 .header{
     display: flex;
     flex-direction: column;
