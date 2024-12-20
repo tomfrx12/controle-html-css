@@ -48,22 +48,12 @@ body{
 
 .header{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--color-neutral);
     gap: 50px;
     padding-top: 22px;
     width: 1440.98px;
-}
-
-.ligne1 {
-    display: flex;
-    justify-content: center;
-}
-
-.ligne2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .header img {
@@ -73,14 +63,8 @@ body{
 
 .header .navigation{
     display: flex;
-    align-items: flex-end;
-    gap: 75px;
-}
-
-body.sombre .header .navigation{
-    display: flex;
     align-items: center;
-    gap: 75px;
+    gap: 50px;
 }
 
 .navigation a{
@@ -97,6 +81,9 @@ body.sombre .header .navigation{
 
 .buttondarkmode {
     font-size: var(--font-size-32px);
+    max-height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .buttons {
